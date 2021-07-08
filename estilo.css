@@ -39,13 +39,24 @@ nav{
 }
 aside{
     float: left;
-    width: 20%;
+    width: calc(20% - 20px);
     background-color:mediumspringgreen;
-    min-height: 1000px;
+    min-height: 990px;
+   padding: 10px;
+
 }
 footer{
     background-color: mistyrose;
     color: black;
     text-align: center;
   
+}
+.articulo {
+    color: black;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid black;
+    font-size: small;
 }
